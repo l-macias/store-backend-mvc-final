@@ -1,0 +1,14 @@
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al obtener el usuario por email: TypeError: Cannot read properties of undefined (reading 'findUser')"}
+{"level":"warn","message":"El usuario no ha sido encontrado"}
+{"level":"error","message":"Error al obtener el usuario por email: TypeError: Cannot read properties of undefined (reading 'findUser')"}
+{"level":"warn","message":"El usuario no ha sido encontrado"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}

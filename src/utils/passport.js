@@ -5,7 +5,7 @@ import { hashPassword, comparePassword } from "./bcrypt.js";
 
 import logger from "./logger.js";
 
-import UserApi from "../services/usersServices.js";
+import UserApi from "../services/userService.js";
 const userApi = new UserApi();
 
 import transporter from "./nodemailer.js";
