@@ -40,10 +40,14 @@ class AuthController {
         try {
             await cart.deleteByUserId(req.body.userId);
             let nameUser = req.user.userName;
-            req.logout();
-            res.render("pages/logout", { nameUser });
+            req.logout((err) => {
+                if (err) {
+                    logger.error(err);
+                }
+                res.render("pages/logout", { nameUser });
+            });
         } catch (error) {
-            logger.warn(error);
+            logger.warn(`Hubo un problema en el método postLogout: ${error}`);
         }
     }
 }

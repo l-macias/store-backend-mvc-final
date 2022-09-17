@@ -11,7 +11,7 @@ class UserApi {
         try {
             return await this.UserApi.add(newUser);
         } catch (error) {
-            logger.error(`Error al añadir el usuario: ${error}`);
+            logger.error(`Error al añadir el usuario en UserService: ${error}`);
         }
     }
 
@@ -33,6 +33,8 @@ class UserApi {
 
     async ifExist(userName) {
         try {
+            logger.info(typeof this.UserApi);
+
             return await this.UserApi.ifExist(userName);
         } catch (error) {
             logger.error(`Error al comprobar si existe el usuario: ${error}`);

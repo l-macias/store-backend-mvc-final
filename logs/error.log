@@ -10,3 +10,165 @@
 {"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
 {"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
 {"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Error al añadir el usuario en UserService: RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: RangeError: Maximum call stack size exceeded"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Error al comprobar si existe el usuario: TypeError: Cannot read properties of undefined (reading 'ifExist2')"}
+{"level":"error","message":"Error al añadir el usuario en UserService: TypeError: Cannot read properties of undefined (reading 'add')"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.carts index: userId_1 dup key: { userId: \"632209de6cc7d701dfd82e56\" }"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.carts index: userId_1 dup key: { userId: \"632209de6cc7d701dfd82e56\" }"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.carts index: userId_1 dup key: { userId: \"632209de6cc7d701dfd82e56\" }"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.carts index: userId_1 dup key: { userId: \"632209de6cc7d701dfd82e56\" }"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot read properties of undefined (reading 'quantity')"}
+{"level":"error","message":"Error al eliminar producto del carrito: TypeError: Cannot read properties of undefined (reading 'filter')"}
+{"level":"error","message":"Hubo un problema en el método getById: CastError: Cast to ObjectId failed for value \"products\" (type string) at path \"_id\" for model \"cart\""}
+{"level":"error","message":"Hubo un problema en el método add: ValidationError: userId: Path `userId` is required."}
+{"level":"error","message":"Hubo un problema en el método getById: CastError: Cast to ObjectId failed for value \"products\" (type string) at path \"_id\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Assignment to constant variable."}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot create property 'quantity' on number 'NaN'"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot create property 'quantity' on number 'NaN'"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot create property 'quantity' on string '{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}undefined'"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: newprod is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot set properties of undefined (setting 'quantity')"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot set properties of undefined (setting 'quantity')"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot read properties of null (reading '_id')"}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220adef508c005fab5d5f6\"),\n  title: 'cacacac',\n  description: 'cacacaca',\n  code: 231321,\n  thumbnail: 'https://cdn-icons-png.flaticon.com/512/7294/7294978.png',\n  price: 222,\n  stock: 222\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot set properties of undefined (setting 'quantity')"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: quantity is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: quantity is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: quantity is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: quantity is not defined"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use :::8080"}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al obtener el carrito por id de usuario: CastError: Cast to string failed for value \"{\n  _id: new ObjectId(\"63220a9af508c005fab5d5c7\"),\n  title: 'JOJO',\n  description: 'Bizarre ',\n  code: 212,\n  thumbnail: 'https://iconape.com/wp-content/png_logo_vector/black-diamond-65750.png',\n  price: 222,\n  stock: 12\n}\" (type Object) at path \"userId\" for model \"cart\""}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of '(intermediate value)' as it is undefined."}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: cart.products[(cart.products.length - 1)].find is not a function"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: object is not iterable (cannot read property Symbol(Symbol.iterator))"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot read properties of undefined (reading 'quantity')"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot read properties of undefined (reading 'quantity')"}
+{"level":"error","message":"Error al agregar producto al carrito: MongooseError: Callback must be a function, got [object Object]"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot set properties of undefined (setting 'quantity')"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot set properties of undefined (setting 'quantity')"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: Cannot access 'id' before initialization"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: newprod2 is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot destructure property '_id' of 'newprod2' as it is undefined."}
+{"level":"error","message":"Error al agregar producto al carrito: TypeError: Cannot read properties of null (reading 'products')"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: userId is not defined"}
+{"level":"error","message":"Error al agregar producto al carrito: ReferenceError: newprod is not defined"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al eliminar producto del carrito: TypeError: Cannot read properties of undefined (reading 'quantity')"}
+{"level":"error","message":"Error al eliminar producto del carrito: TypeError: Cannot read properties of undefined (reading 'quantity')"}
+{"level":"error","message":"El objeto ya existe"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials c39-20020a05687047a700b0010efb044e37sm2994690oaq.27 - gsmtp","responseCode":535}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Hubo un problema en el método add: ValidationError: timestamps: Path `timestamps` is required."}
+{"level":"error","message":"Hubo un problema en el método ifExist: CastError: Cast to date failed for value \"16/9/2022 14:54:34\" (type string) at path \"timestamps\" for model \"order\""}
+{"level":"error","message":"Hubo un problema en el método add: ValidationError: timestamps: Cast to date failed for value \"16/9/2022 14:54:34\" (type string) at path \"timestamps\""}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"Hubo un problema en el método makeOrder: ReferenceError: findOrder is not defined"}
+{"level":"error","message":"Hubo un problema en el método makeOrder: TypeError: this.OrderApi.getByUserId is not a function"}
+{"level":"error","message":"Hubo un problema en el método makeOrder: TypeError: Cannot read properties of null (reading 'length')"}
+{"level":"error"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.orders index: nroOrden_1 dup key: { nroOrden: 6 }"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.orders index: nroOrden_1 dup key: { nroOrden: 6 }"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"El objeto ya existe"}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a17-20020a056870e0d100b0011382da43aesm5248358oab.16 - gsmtp","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials s5-20020a056870248500b001267a921ae5sm4979710oaq.34 - gsmtp","responseCode":535}
+{"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials be36-20020a05687058a400b000f5e89a9c60sm5286609oab.3 - gsmtp","responseCode":535}

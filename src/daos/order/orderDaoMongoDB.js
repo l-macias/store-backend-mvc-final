@@ -6,9 +6,12 @@ export default class OrdersDaoMongoDB extends MongoDBContainer {
         super(
             "order",
             new mongoose.Schema({
-                timestamps: { type: Date },
-                userId: { type: String, required: true },
-                products: Array,
+                nroOrden: { type: Number, required: true, unique: true },
+                timestamps: { type: String, required: true },
+                user: { type: Array, required: true },
+                products: { type: Array, required: true },
+                total: { type: Number, required: true },
+                status: { type: String, required: true },
             })
         );
     }

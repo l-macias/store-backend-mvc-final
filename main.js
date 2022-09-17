@@ -78,10 +78,12 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
     app.use("/api/order", authorize, orderRoutes);
 
     app.use(function (req, res, next) {
-        res.status(404).json({
-            error: -2,
-            descripcion: `ruta ${req.url} método '${req.method}' no implementado`,
-        });
+        res.redirect("/");
+
+        // res.status(404).json({
+        //     error: -2,
+        //     descripcion: `ruta ${req.url} método '${req.method}' no implementado`,
+        // });
     });
 
     io.on("connection", async (socket) => {

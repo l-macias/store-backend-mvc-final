@@ -1,5 +1,4 @@
 import logger from "../utils/logger.js";
-
 import { cartsDao } from "../daos/index.js";
 
 class CartApi {

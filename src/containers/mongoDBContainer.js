@@ -18,8 +18,11 @@ class MongoDBContainer {
         try {
             const data = await this.getAll();
             if (data) {
-                let obj = await this.collection.find({ _id: id }, { __v: 0 });
-                if (obj) return obj[0];
+                let obj = await this.collection.findOne(
+                    { _id: id },
+                    { __v: 0 }
+                );
+                if (obj) return obj;
                 return null;
             }
         } catch (error) {
@@ -29,6 +32,10 @@ class MongoDBContainer {
 
     async add(data) {
         try {
+            if (await this.ifExist(data)) {
+                logger.error(`El objeto ya existe`);
+                return null;
+            }
             return await this.collection({ ...data }).save();
         } catch (error) {
             logger.error(`Hubo un problema en el método add: ${error}`);

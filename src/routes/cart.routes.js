@@ -20,7 +20,7 @@ router.get("/:userId/products", controller.getById);
 //Añade un producto al carrito según el id del usuario.
 router.post("/:userId/products", controller.addProductCart);
 
-//Elimina un producto del carrito según el id del usuario.
+//Elimina un producto del carrito según el id del usuario y el id del producto.
 router.delete("/:userId/products/:productId", controller.deleteProductCart);
 
 export default router;

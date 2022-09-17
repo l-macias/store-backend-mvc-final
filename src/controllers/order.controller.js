@@ -7,7 +7,8 @@ class OrderController {
     constructor() {}
     async makeOrder(req, res) {
         try {
-            return await order.makeOrder(req.params.userId, req.body.cartId);
+            await order.makeOrder(req.params.userId, req.body.cartId);
+            res.redirect("/home");
         } catch (error) {
             logger.warn(error);
             res.status(404).json({
