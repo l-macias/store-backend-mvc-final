@@ -9,6 +9,8 @@ import cors from "cors";
 import parseArg from "minimist";
 import logger from "./src/utils/logger.js";
 import session from "express-session";
+import _yargs from "yargs";
+import { hideBin } from "yargs/helpers";
 const advancedOptions = { useNewUrlParser: true, useUnifiedTopology: true };
 import passport from "passport";
 import MongoStore from "connect-mongo";
@@ -25,10 +27,16 @@ import cartRoutes from "./src/routes/cart.routes.js";
 import userRoutes from "./src/routes/user.routes.js";
 import orderRoutes from "./src/routes/order.routes.js";
 
-//Configuración del servidor
-const { PORT, SERVER } = parseArg(process.argv.slice(2), {
-    default: { PORT: process.env.PORT, SERVER: "FORK" },
-});
+//Configuración del servidor y parseo de argumentos
+const yargs = _yargs(hideBin(process.argv));
+const argv = await yargs
+    .default({ PORT: parseInt(process.argv[2]) || 8080 }, { SERVER: "FORK" })
+    .alias({
+        p: "PORT",
+        s: "SERVER",
+    }).argv;
+const PORT = argv.PORT || process.env.PORT || process.argv[2] || 8080;
+const SERVER = argv.SERVER || process.argv[3];
 
 //Socket.io
 import http from "http";
@@ -79,11 +87,6 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 
     app.use(function (req, res, next) {
         res.redirect("/");
-
-        // res.status(404).json({
-        //     error: -2,
-        //     descripcion: `ruta ${req.url} método '${req.method}' no implementado`,
-        // });
     });
 
     io.on("connection", async (socket) => {
@@ -118,7 +121,11 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 
     server.listen(PORT, async () => {
         logger.info(
-            `Servidor HTTP escuchando en el puerto: ${server.address().port}`
+            `Servidor HTTP escuchando en el puerto: ${
+                server.address().port
+            }, en modo ${SERVER} y en Entorno **${
+                process.env.NODE_ENV
+            }**, PROCESS ARGV: ${process.argv.slice(2)}`
         );
     });
 
