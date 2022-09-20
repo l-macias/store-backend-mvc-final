@@ -6,7 +6,6 @@ const numCPUs = cpus().length;
 import "dotenv/config";
 import config from "./src/configs/config.js";
 import cors from "cors";
-import parseArg from "minimist";
 import logger from "./src/utils/logger.js";
 import session from "express-session";
 import _yargs from "yargs";
@@ -30,13 +29,16 @@ import orderRoutes from "./src/routes/order.routes.js";
 //Configuración del servidor y parseo de argumentos
 const yargs = _yargs(hideBin(process.argv));
 const argv = await yargs
-    .default({ PORT: parseInt(process.argv[2]) || 8080 }, { SERVER: "FORK" })
+    .default({
+        port: process.argv[2] || process.env.PORT || 8080,
+        server: process.argv[3] || "FORK",
+    })
     .alias({
-        p: "PORT",
-        s: "SERVER",
+        p: "port",
+        s: "server",
     }).argv;
-const PORT = argv.PORT || process.env.PORT || process.argv[2] || 8080;
-const SERVER = argv.SERVER || process.argv[3];
+const PORT = argv.port || process.env.PORT || 8080;
+const SERVER = argv.server || "FORK";
 
 //Socket.io
 import http from "http";
@@ -123,9 +125,8 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
         logger.info(
             `Servidor HTTP escuchando en el puerto: ${
                 server.address().port
-            }, en modo ${SERVER} y en Entorno **${
-                process.env.NODE_ENV
-            }**, PROCESS ARGV: ${process.argv.slice(2)}`
+            }, en modo ${SERVER} y en Entorno **${process.env.NODE_ENV}**`,
+            argv
         );
     });
 

@@ -172,3 +172,7 @@
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials a17-20020a056870e0d100b0011382da43aesm5248358oab.16 - gsmtp","responseCode":535}
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials s5-20020a056870248500b001267a921ae5sm4979710oaq.34 - gsmtp","responseCode":535}
 {"code":"EAUTH","command":"AUTH PLAIN","level":"error","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials be36-20020a05687058a400b000f5e89a9c60sm5286609oab.3 - gsmtp","responseCode":535}
+{"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
+{"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
+{"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
+{"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
