@@ -125,8 +125,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
         logger.info(
             `Servidor HTTP escuchando en el puerto: ${
                 server.address().port
-            }, en modo ${SERVER} y en Entorno **${process.env.NODE_ENV}**`,
-            argv
+            }, en modo ${SERVER} y en Entorno **${process.env.NODE_ENV}**`
         );
     });
 

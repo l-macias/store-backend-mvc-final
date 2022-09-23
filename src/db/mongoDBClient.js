@@ -12,7 +12,9 @@ class MongoDBClient {
     connect() {
         try {
             this.client.connect(config.mongoDB.cnx, config.mongoDB.options);
-            logger.info("Base de datos conectada");
+            logger.info(
+                `Base de datos conectada utilizando ${process.env.NODE_DB}`
+            );
         } catch (error) {
             logger.error(
                 `Hubo un problema en la conexión a la base de datos: ${error}`

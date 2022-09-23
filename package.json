@@ -7,7 +7,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js",
-    "start:dev": "NODE_ENV=development node main.js"
+    "start:dev": "NODE_ENV=development node main.js",
+    "start:dev-mem": "NODE_ENV=development NODE_DB=mem node main.js",
+    "start:dev-mysql": "NODE_ENV=development NODE_DB=mysql node main.js"
   },
   "keywords": [],
   "author": "",
