@@ -28,7 +28,7 @@ class ChatApi {
             };
             return await this.ChatApi.add(msn);
         } catch (error) {
-            logger.error(error);
+            logger.error(`Error al guardar el mensaje: ${error}`);
         }
     }
 

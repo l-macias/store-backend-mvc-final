@@ -97,7 +97,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
             let data = await chat.getAll();
             if (data.length > 0) return io.sockets.emit("chat", data);
         } catch (error) {
-            logger.error(error);
+            logger.error(`Error al obtener los mensajes: ${error}`);
         }
 
         socket.on("msn", async (msn) => {
@@ -107,7 +107,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
                 let data = await chat.getAll();
                 if (data.length > 0) return io.sockets.emit("chat", data);
             } catch (error) {
-                logger.error(error);
+                logger.error(`Error al guardar el mensaje: ${error}`);
             }
         });
 

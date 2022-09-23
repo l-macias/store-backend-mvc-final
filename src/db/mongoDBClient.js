@@ -12,14 +12,12 @@ class MongoDBClient {
     connect() {
         try {
             this.client.connect(config.mongoDB.cnx, config.mongoDB.options);
-            logger.info(
-                `Base de datos conectada utilizando ${process.env.NODE_DB}`
-            );
+            logger.info(`Base de datos conectada utilizando ${process.env.DB}`);
         } catch (error) {
             logger.error(
                 `Hubo un problema en la conexión a la base de datos: ${error}`
             );
-            throw "Falló la conexión a MongoDB";
+            throw "Falló la conexión a la Base de datos";
         }
     }
 
@@ -29,7 +27,7 @@ class MongoDBClient {
             logger.info("Base de datos desconectada");
         } catch (error) {
             logger.error(`Hubo un problema en la desconexión: ${error}`);
-            throw "Fallo en la desconexión de MongoDB";
+            throw "Fallo en la desconexión de la base de datos";
         }
     }
 }
