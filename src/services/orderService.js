@@ -69,8 +69,11 @@ class OrderApi {
             };
             await transporter.sendMail(mailOptions);
             cartUser.products = [];
-            logger.info(cartUser);
+
             this.CartApi.editById(cartUser._id, cartUser);
+            logger.info(
+                `Se ha creado la orden Nro: ${orderNr} del usuario: ${user.userName}`
+            );
             return order;
         } catch (error) {
             logger.error(error);

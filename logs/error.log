@@ -176,3 +176,4 @@
 {"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
 {"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
 {"level":"error","message":"Error en servidor: Error: listen EADDRINUSE: address already in use CLUSTER"}
+{"level":"error","message":"El objeto ya existe"}
