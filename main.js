@@ -93,9 +93,12 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
 
     io.on("connection", async (socket) => {
         try {
-            logger.info("Cliente conectado");
+            logger.info(`Nuevo cliente conectado!`);
             let data = await chat.getAll();
-            if (data.length > 0) return io.sockets.emit("chat", data);
+            logger.info(`Se han recuperado ${data.length} mensajes`);
+            socket.emit("messages", data);
+
+            if (data.length > 0) io.sockets.emit("chat", data);
         } catch (error) {
             logger.error(`Error al obtener los mensajes: ${error}`);
         }
@@ -103,6 +106,7 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
         socket.on("msn", async (msn) => {
             try {
                 await chat.addChat(msn);
+                logger.info(`Se ha guardado el mensaje ${msn}`);
                 io.sockets.emit("email", msn.email);
                 let data = await chat.getAll();
                 if (data.length > 0) return io.sockets.emit("chat", data);
@@ -111,9 +115,9 @@ if (cluster.isPrimary && SERVER === "CLUSTER") {
             }
         });
 
-        socket.on("disconnect", () => {
+        socket.on("disconnect", async () => {
             try {
-                chat.deleteAll();
+                // await chat.deleteAll();
                 logger.info("Usuario desconectado");
             } catch (error) {
                 logger.error(error);

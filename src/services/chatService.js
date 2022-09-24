@@ -20,8 +20,6 @@ class ChatApi {
             let msn = {
                 author: {
                     id: data.email,
-                    name: data.name,
-                    lastname: data.lastname,
                 },
                 date: data.date,
                 message: data.message,
