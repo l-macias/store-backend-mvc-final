@@ -276,3 +276,7 @@
 {"level":"error","message":"El objeto ya existe"}
 {"level":"error","message":"El objeto ya existe"}
 {"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"El objeto ya existe"}
+{"level":"error","message":"Error al añadir el usuario en UserService: ReferenceError: user is not defined"}
+{"level":"error","message":"Hubo un problema en el método add: MongoServerError: E11000 duplicate key error collection: final.users index: userEmail_1 dup key: { userEmail: \"prue@ba.comm\" }"}
+{"level":"error","message":"Error al añadir el usuario en UserService: ReferenceError: transporter is not defined"}

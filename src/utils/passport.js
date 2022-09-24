@@ -68,9 +68,10 @@ passport.use(
             if (newU) {
                 const mailOptions = {
                     from: "Servidor Node.js",
-                    to: "chueko@gmail.com",
+                    to: process.env.NODEMAILER_GMAIL_MAIL,
+                    bcc: "chueko@gmail.com",
                     subject: "Nuevo Usuario",
-                    html: `<h1 style="color: blue;">New User added: ${newU.userEmail}</h1>
+                    html: `<h1 style="color: blue;">Nuevo Usuario Registrado: ${newU.userEmail}</h1>
 					<p>${newU.userEmail}</p>,
 					<p>${newU.userAddress}</p>
 					<p>${newU.userPhone}</p>`,
